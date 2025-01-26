@@ -11,7 +11,6 @@ def bandsintown_scraper():
             # class name for show More details   (OsDXzJEUtjxbMlCnPMsj)
             page.wait_for_selector(".OsDXzJEUtjxbMlCnPMsj")
             page.click(".OsDXzJEUtjxbMlCnPMsj")
-            print('we are here2')
             # To see the button is clicked or not.
             page.wait_for_timeout(9000)
         except Exception as e:
